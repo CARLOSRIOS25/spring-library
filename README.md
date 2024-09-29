@@ -6,7 +6,7 @@ Desarrollada con Spring Boot y Thymeleaf, ofrece una interfaz simple y funcional
 ## 📋 Características
 
 - 📄 **Renderizado de vistas con Thymeleaf**: Utilizamos Thymeleaf para crear vistas dinámicas y flexibles.
-- 💾 **Base de datos integrada**: Conecta tu base de datos favorita (H2, MySQL, etc.) con facilidad.
+- 💾 **Base de datos integrada**: Uso de base de datos H2.
 - 📊 **Gestión de datos**: CRUD básico para las entidades de la aplicación.
 
 
