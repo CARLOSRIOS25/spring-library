@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>User Page</title>
+</head>
+<body>
+<div class="jumbotron text-center text-light" style="background-image: url('/images/biblioteca.jpg'); background-size: cover; background-position: center;">>
+    <h1>Welcome User</h1>
+    <p>You have User privileges.</p>
+    <a href="/login" class="btn btn-secondary float-left">Logout</a>
+</div>
+<div class="container">
+    <div class="card text-center">
+        <div class="card-body">
+            <h5 class="card-title">Libros</h5>
+            <p class="card-text">Libros en el sistema</p>
+            <div class="text-center p-3">
+                <img src="/images/libro.png" class="img-fluid" alt="Responsive image" style="width: 200px">
+            </div>
+            <a href="/libros/all" class="btn btn-primary mt-2">Ver Libros</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
